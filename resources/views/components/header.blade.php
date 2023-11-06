@@ -1,0 +1,1 @@
+<h1 class="mb-4 display-1">Legal Mate</h1>
