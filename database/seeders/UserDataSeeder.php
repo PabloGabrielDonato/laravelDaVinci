@@ -14,6 +14,6 @@ class UserDataSeeder extends Seeder
      */
     public function run()
     {
-        //
+        
     }
 }

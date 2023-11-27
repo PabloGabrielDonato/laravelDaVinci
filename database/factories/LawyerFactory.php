@@ -22,7 +22,8 @@ class LawyerFactory extends Factory
             'topic' => fake()->text(),
             'address'=> fake()->address(),
             'phone'=> fake()->phoneNumber(),
-            'email' => fake()->email()
+            'email' => fake()->email(),
+            'solicitud' => 'aceptada',
         ];
     }
 }

@@ -1,7 +1,9 @@
 @extends('layout')
 @section('content')
-<h2 class="mb-4 display-2">Edite su post/h2>
+
+<h2 class="mb-4 display-2">Edite su post</h2>
     <form method="POST" action="{{ route('post.editar') }}">
+        @include('components.errors')
         @csrf
         <div class="mb-3">
             <input type="text" class="form-control" name="title" value="{{$post->title}}">

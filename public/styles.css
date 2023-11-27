@@ -1,0 +1,182 @@
+body {
+    background-color: var(--first);
+    color: #7f7f7f;
+    overflow-x: hidden;
+    font-size: 1.5rem;
+}
+.dashboard {
+    margin-left: 5%;
+}
+:root {
+    --first: #3a465c;
+    --second: #000000;
+    --third: #7f7f7f;
+}
+/* LANDING */
+/* nav */
+/* .navbar-nav .nav-item .nav-link {
+    background-color: #7f7f7f;
+    border-radius: 15px;
+} */
+.navbar{
+    background-color: var(--first);
+}
+.nav-item a {
+    color: white;
+    
+}
+
+
+.nav-item a:hover {
+    color: var(--third);
+}
+.dropdown-menu {
+    background-color: var(--first);
+}
+.dropdown-menu a:hover {
+    color: var(--third);
+}
+.navbar-collapse ul {
+    padding-right: 5%;
+}
+.navbar-toggler{
+    /* box shadow effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   background-color: white;
+    /* background-color: white; */
+}
+
+.navbar-toggler:focus {
+
+    border: none;
+    border: 3px solid var(--third);
+}
+.cardsAbogados {
+    margin-left: auto;
+    margin-right: auto;
+}
+.welcome {
+    height: 100vh;
+    background: url(assets/hombre-haciendo-su-proximo-movimiento.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.card-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5%;
+}
+
+.elementosderecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea verticalmente en el centro */
+    width: 50%;
+    backdrop-filter: blur(
+        15px
+    ); /* Efecto de transparencia/blur para el fondo */
+    background-color: rgba(
+        28,
+        34,
+        46,
+        0.5
+    ); /* Cambia el color del blur ajustando los valores RGB y la opacidad (0.5 en este caso) */
+    padding: 20px; /* Ajusta el padding según sea necesario */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Ajusta el espacio entre los botones según sea necesario */
+}
+
+.btn {
+    margin-top: 10px; /* Ajusta el espacio entre los botones y el contenido anterior */
+    background-color: #27303f;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+.textos {
+    width: 100%; /* Ajusta el ancho según sea necesario */
+}
+
+.cards {
+    display: flex;
+    flex-direction: row-reverse; /* Invierte el orden de las cards */
+    justify-content: center;
+}
+
+.card {
+    background-color: #272f3f90;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    margin: 1%;
+    padding: 1%;
+    width: 30%;
+
+    opacity: 0.9;
+}
+.textos h2,
+h3,
+h4, h1{
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+h2 {
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/* ABOUTUS */
+
+.aboutush2 {
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+.aboutus {
+    height: 100vh;
+    background-color: #272f3f;
+}
+.aboutus img {
+    max-height: 81%;
+    width: 100%;
+}
+
+.containerabout {
+    max-width: 100%;
+}
+
+/* LOGIN */
+.h2login{
+    padding: 2%;
+    text-align: center;
+}
+
+
+/* DASHBOARD */
+.infoPer img{
+    border-radius: 50%;
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FORMS */
+label{
+    color: white;
+}

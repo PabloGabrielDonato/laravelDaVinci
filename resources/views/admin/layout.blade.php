@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>MeFamily Bootstrap Template - Index</title>
+    <title>Admin MeFamily</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -20,14 +20,6 @@
 
     <!-- Vendor CSS Files -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Template Main CSS File
-    {{-- <link href="{{asset('vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet"> --}}
-    {{-- <link href="{{asset('vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet"> --}}
-    {{-- <link href="{{asset('vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet"> --}}
-    {{-- <link href="{{asset('vendor/remixicon/remixicon.css') }}" rel="stylesheet"> --}}
-    {{-- <link href="{{asset('vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet"> --}}
-    -->
-    <!-- Template Main CSS File -->
     <link href="{{ asset('styles.css') }}" rel="stylesheet">
     <!-- =======================================================
   * Template Name: MeFamily
@@ -40,9 +32,7 @@
 
 <body>
 
-    <!-- ======= Header ======= -->
-    @include('components/header')
-
+    @include('admin/components/navbar')    
     <!-- ======= Page ======= -->
     @yield('content')
 
@@ -52,16 +42,8 @@
 
 
     <!-- Vendor JS Files -->
-   
-    {{-- <script src="{{asset('./vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{asset('./vendor/glightbox/js/glightbox.min.js')}}"></script>
-    <script src="{{asset('./vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
-    <script src="{{asset('./vendor/swiper/swiper-bundle.min.js')}}"></script>
-    <script src="{{asset('./vendor/php-email-form/validate.js')}}"></script> --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <!-- Template Main JS File -->
-    {{-- <script src="{{ asset('/js/main.js') }}"></script> --}}
-
+    
 </body>
 
 </html>

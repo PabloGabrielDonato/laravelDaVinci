@@ -3,7 +3,8 @@
 <h2 class="mb-4 display-2">Cree un nuevo post</h2>
 <main class="container">
 
-    <form method="POST">
+    <form method="POST" action="{{ route('post.store') }}">
+        @include('components.errors')
         @csrf
         <div class=" mb-3">
             <label class="form-label">Titulo</label>

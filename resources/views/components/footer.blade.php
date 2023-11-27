@@ -4,8 +4,8 @@
             <div class="col-md-4">
                 <h4>Mapa del Sitio</h4>
                 <ul class="list-unstyled">
-                    <li><a href="/">home</a></li>
-                    <li><a href="/#ofertas">Destacado</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/pricing">Pricing</a></li>
                     <li><a href="/#aboutus">About us</a></li>
 
                 </ul>
