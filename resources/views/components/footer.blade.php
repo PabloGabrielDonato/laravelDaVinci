@@ -4,9 +4,9 @@
             <div class="col-md-4">
                 <h4>Mapa del Sitio</h4>
                 <ul class="list-unstyled">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/pricing">Pricing</a></li>
-                    <li><a href="/#aboutus">About us</a></li>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/pricing">Abogados</a></li>
+                    <li><a href="/#aboutus">Nosotros</a></li>
 
                 </ul>
             </div>

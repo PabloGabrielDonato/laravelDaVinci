@@ -6,16 +6,17 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <h1 class="mb-4 display-1">Legal Mate</h1>
+        <!-- <h1 class="mb-4 display-1">Legal Mate</h1> -->
+        <img src="assets/logoBlanco.png" alt="" class="logoNav">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/">Home</a>
+                    <a class="nav-link" aria-current="page" href="/">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/#aboutus">About us</a>
+                    <a class="nav-link" aria-current="page" href="/#aboutus">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/pricing">Pricing</a>
+                    <a class="nav-link" aria-current="page" href="/pricing">Abogados</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -24,14 +25,14 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         @if(Auth::check())
-                        <li><a class="dropdown-item" href="/dashboard">Dashboard</a></li>
+                        <li><a class="dropdown-item" href="/dashboard">Mi perfil</a></li>
                         <li>
                             <form method="POST" action="{{ route('logout') }}">
                                 @csrf
 
                                 <a class="dropdown-item text-danger" href="route('logout')" onclick="event.preventDefault();
                                                     this.closest('form').submit();">
-                                    {{ __('Log Out') }}
+                                    {{ __('Cerrar sesión') }}
                                 </a>
                             </form>
                         </li>

@@ -5,10 +5,10 @@
 
 <main class="container">
      <article class="container">
-        <h2 class="display-2 text-center" id="ofertas">Estos son nuestros mejores abogados</h2>
+        <h2 class="display-2 text-center" id="ofertas">Estos son nuestros abogados destacados.</h2>
         <div class="row gap-3 cardsAbogados justify-content-center ">
             @foreach($posts as $post)
-            <div class="card mb-3" style="width: 25rem;">
+            <div class="card mb-3" style="width: 20rem;">
                 <img src="{{$post->image}}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">{{$post->title}}</h5>

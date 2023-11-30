@@ -25,7 +25,7 @@ class UserController extends Controller
             return redirect('login');
         }
         $user = User::find(Auth::getUser()->id);
-        $posts = Post::all()->take(4);
+        $posts = Post::all()->take(6);
         return view('pricing', ['posts'=>$posts]);
         
     }
